@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <title>Kafene</title>
+</head>
+
+<body>
+  <div class="Topbar_Topbar">
+    <div class="Topbar_LogoWrapper">
+      <b><img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="logo" /></b>
+      <p class="Topbar_BrandName"><a href="index.html">Kafene</a></p>
+    </div>
+    <nav>
+      <a href="order.html">Orders</a><br>
+      <a href="product.html">Products</a><br>
+      <a href="users.html">Users</a>
+    </nav>
+  </div>
+  <div class="maincontent">
+    <form id="form_id" method="post" class="LoginPage_LoginForm__3_wtJ" name="myform">
+      <h1>Sign In</h1>
+      <input class="LoginPage" type="text" name="username" id="username" placeholder="Enter Username" />
+      <input class="LoginPage" type="password" name="password" id="password" placeholder="Enter Password" />
+      <input class="LoginPageButton" type="button" value="Login" id="submit" onclick="login()" />
+    </form>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
